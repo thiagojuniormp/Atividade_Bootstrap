@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+	    <title>AtividadeBootstrap</title>
+		<link rel="stylesheet" type="text/css" href="file:///C:/Users/THIAGO/Documents/Projetobootstrap/bootstrap.css"/>
+	</head>
+	<body>
+	    <div class="container">
+		    <h1>Formulário</h1>
+		<form class="row">
+		    <div class="col-4">
+			    <label>Nome:</label>
+				<input type="text" name="nome" class="form-control"/>
+			</div>
+			<div class="col-2">
+			    <label>Data de nascimento:</label>
+				<input type="text" name="nascimento" class="form-control" />
+			</div>
+			<div class="col-2">
+			    <label>Ano que cursa:</label>
+				<input type="text" name="anoquecursa" class="form-control" />
+			</div>
+			<div class="col-2">
+			    <label>Matéria preferida:</label>
+				<input type="text" name="materiapreferida" class="form-control" />
+			</div>
+			<div class="col-2">
+			    <button type="submit" class="btn btn-success" style="margin-top: 33px;">Salvar</button>
+			</div>
+        </form>
+		<br/>
+		<table class="table table-striped">
+		    <colgroup>
+			        <col width="200">
+					<col width="150">
+					<col width="150">
+					<col width="150">
+					<col width="100">
+					<col width="100">
+			</colgroup>
+		    <thead>
+			<tr>
+			    <th>Nome</th>
+				<th>Data de nascimento</th>
+				<th>Ano que cursa</th>
+				<th>Matéria preferida</th>
+				<th>Editar</th>
+				<th>Excluir</th>
+            </tr>				
+			</thead>
+			<tbody>
+			    <tr>
+				    <td>Fulano</td>
+					<td>23/06/2000</td>
+					<td>2° ano</td>
+					<td>Português</td>
+					<td>
+					    <button class="btn btn-warning">Editar</button>
+					</td>
+					<td>
+					    <button class="btn btn-danger">Excluir</button>
+					</td>
+				</tr>
+				<tr>
+				    <td>Ciclano</td>
+					<td>17/11/2001</td>
+					<td>2° ano</td>
+					<td>História</td>
+					<td>
+					    <button class="btn btn-warning">Editar</button>
+					</td>
+					<td>
+					    <button class="btn btn-danger">Excluir</button>
+					</td>
+				</tr>
+			</body>		
+		</table>
+		</div>
+    </body>
+</html>
